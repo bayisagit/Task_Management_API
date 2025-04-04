@@ -118,3 +118,63 @@ Traceback (most recent call last):
     raise ValidationError(errors)
 django.core.exceptions.ValidationError: {'__all__': ['Due date must be in the future.']}
 "POST /api/tasks/create/ HTTP/1.1" 500 128734
+Internal Server Error: /api/categories/create
+Traceback (most recent call last):
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/categories/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/categories/create HTTP/1.1" 500 72528
+Internal Server Error: /api/categories/create
+Traceback (most recent call last):
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/categories/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/categories/create HTTP/1.1" 500 72528
+Internal Server Error: /api/categories/create
+Traceback (most recent call last):
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/categories/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/categories/create HTTP/1.1" 500 72528
+Internal Server Error: /api/categories/create
+Traceback (most recent call last):
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\.virtualenvs\storefront-8g4Nfhva\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/categories/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+"POST /api/categories/create HTTP/1.1" 500 72528
